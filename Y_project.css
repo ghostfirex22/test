@@ -1,0 +1,85 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(100, 247, 119);
+    background-image: linear-gradient(rgb(100, 247, 119),green);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-image: linear-gradient(to right,rgba(100, 247, 120, 0.199),rgba(0, 128, 0, 0.171)),
+    url(dark-path-in-the-forest-green-landscape-forest-background-free-photo.jpg);
+    width: 99%;
+    height: 610px;
+    background-position: center;
+}
+.container:hover{
+    background-image: linear-gradient(to right,rgba(100, 247, 120, 0.199),transparent),
+    url(dark-path-in-the-forest-green-landscape-forest-background-free-photo.jpg);
+}
+header{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a{
+    border-bottom: 2px solid transparent;
+}
+
+ul a:hover{
+    border-bottom-color: white;
+}
+
+.content{
+    color: white;
+    width: 40%;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.content h2{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.content p{
+    letter-spacing: 1px;
+    width: 400px;
+    padding: 20px 0;
+}
+
+.content button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
